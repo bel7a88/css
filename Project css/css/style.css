@@ -1,0 +1,81 @@
+body{
+    
+   margin:0px;
+   margin-bottom: 50px;
+}
+.halfbg{
+    width: 100%;
+    height: 450px;
+    background-image: url('../res/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:1px;
+}
+
+h1{
+    font-size: 90px;
+    color: white;
+    padding-top: 170px;
+    padding-left: 80px;
+}
+
+h2{
+    color: #202340;
+    font-size: 45px;
+    
+}
+
+.blocktitle{
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+
+.blocktext{
+    
+    font-size: 20px;
+    text-align: justify;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.line{
+    display: inline-block;
+    
+}
+.blockgris {
+    padding: 40px;
+    width: 48%;
+    background-color: #eee;
+    display: inline-block;
+    height: 350px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.blockgris:hover {
+    outline: 6px solid rgb(0, 0, 0);
+    transition: all .3s;
+    outline-offset: -6px;
+}
+
+
+.blockgrisf {
+    padding: 40px;
+    width: 48%;
+    background-color: #333;
+    display: inline-block;
+    height: 350px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.blockgrisf:hover {
+    outline: 6px solid rgb(0, 0, 0);
+    transition: all .3s;
+    outline-offset: -6px;
+}
